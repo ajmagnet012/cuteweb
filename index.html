@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just something small</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>hey 👋</h1>
+    <p class="subtitle">(tap the card)</p>
+
+    <div class="card" id="slideCard">
+        <p id="slideText"></p>
+    </div>
+
+    <div class="card hidden" id="questionCard">
+        <h3>one last thing</h3>
+        <p>did this made you smile tho?</p>
+        <div class="buttons">
+            <button class="yes" id="yesBtn">yes 🙂</button>
+            <button class="no" id="noBtn">no 😐</button>
+        </div>
+    </div>
+</div>
+
+<div id="revealScreen" class="hidden">
+    <div class="reveal-content">
+        <img src="catto.jpg" alt="Reveal" class="reveal-img">
+        <p class="reveal-text">studwili 🙂</p>
+    </div>
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="the_cat_from_ipanema.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
